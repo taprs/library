@@ -10789,6 +10789,55 @@
   keywords = "Next generation sequencing; Ploidy; Probabilistic modeling"
 }
 
+@ARTICLE{Clark2022-sk,
+  title     = "A population-level statistic for assessing Mendelian behavior of
+               genotyping-by-sequencing data from highly duplicated genomes",
+  author    = "Clark, Lindsay V and Mays, Wittney and Lipka, Alexander E and
+               Sacks, Erik J",
+  journal   = "BMC Bioinformatics",
+  publisher = "BioMed Central",
+  volume    =  23,
+  number    =  1,
+  pages     =  101,
+  abstract  = "BACKGROUND: Given the economic and environmental importance of
+               allopolyploids and other species with highly duplicated genomes,
+               there is a need for methods to distinguish paralogs, i.e.
+               duplicate sequences within a genome, from Mendelian loci, i.e.
+               single copy sequences that pair at meiosis. The ratio of observed
+               to expected heterozygosity is an effective tool for filtering
+               loci but requires genotyping to be performed first at a high
+               computational cost, whereas counting the number of sequence tags
+               detected per genotype is computationally quick but very
+               ineffective in inbred or polyploid populations. Therefore, new
+               methods are needed for filtering paralogs. RESULTS: We introduce
+               a novel statistic, Hind/HE, that uses the probability that two
+               reads sampled from a genotype will belong to different alleles,
+               instead of observed heterozygosity. The expected value of Hind/HE
+               is the same across all loci in a dataset, regardless of read
+               depth or allele frequency. In contrast to methods based on
+               observed heterozygosity, it can be estimated and used for
+               filtering loci prior to genotype calling. In addition to
+               filtering paralogs, it can be used to filter loci with null
+               alleles or high overdispersion, and identify individuals with
+               unexpected ploidy and hybrid status. We demonstrate that the
+               statistic is useful at read depths as low as five to 10, well
+               below the depth needed for accurate genotype calling in polyploid
+               and outcrossing species. CONCLUSIONS: Our methodology for
+               estimating Hind/HE across loci and individuals, as well as
+               determining reasonable thresholds for filtering loci, is
+               implemented in polyRAD v1.6, available at
+               https://github.com/lvclark/polyRAD . In large sequencing
+               datasets, we anticipate that the ability to filter markers and
+               identify problematic individuals prior to genotype calling will
+               save researchers considerable computational time.",
+  month     =  mar,
+  year      =  2022,
+  keywords  = "Genome duplication; Heterozygosity; Next generation
+               DNA-sequencing (NGS); Polyploidy; Single nucleotide polymorphism
+               (SNP)",
+  language  = "en"
+}
+
 @ARTICLE{Zhu2015-wt,
   title    = "The phylogeographic structure of Hydrilla verticillata
               (Hydrocharitaceae) in China and its implications for the
