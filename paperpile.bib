@@ -14351,6 +14351,32 @@
   year      =  2023
 }
 
+@MISC{Dainat2024-cq,
+  title     = "{NBISweden}/{AGAT}: {AGAT}-{v1}.4.0",
+  author    = "Dainat, Jacques",
+  publisher = "Zenodo",
+  abstract  = "fix \#448 an issue affecting AGAT when using GFF2 and GFF2.5
+               bioperl parser. Bioperl is adding an extra empty ID attribute
+               that mess up with AGAT. An extra step in AGAT remove this empty
+               attribute and allows AGAT to works appropriately. Rendering :
+               Re-activting progress bar (tata has been deactivated by mistake
+               in previous releases) Display AGAT header for all scripts (before
+               was only for sp scripts) Providing log information to user about
+               the config file taken. fix \#441 use L3 feature instead to L1 as
+               template to create features when transcript\_id exists by @Juke34
+               in \#442. Bug was affecting GTF input annotations that have only
+               level3 features (CDS,exons;etc.) and that was outputted in GTF
+               (GFF output are fine excepted their transcript\_id attribute that
+               become wrong but are anyway useless in GFF). Fix \#435
+               agat\_sp\_compare\_two\_annotations.pl now output gene IDs by
+               @Juke34 in \#437 Fix \#436
+               agat\_sp\_manage\_functional\_annotation.pl now appending
+               Name,product,dbxref,product attributes by default instead of
+               replacing. Add parameters to clean those attributes. by @Juke34
+               in \#438",
+  year      =  2024
+}
+
 @BOOK{Tange2018-mh,
   title     = "Gnu Parallel 2018",
   author    = "Tange, Ole",
