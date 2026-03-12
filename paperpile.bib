@@ -18241,6 +18241,39 @@
   year    =  2017
 }
 
+@ARTICLE{John2023-dh,
+  title       = "{permGWAS2}: Enhanced and Accelerated Permutation-based
+                 Genome-Wide Association Studies",
+  author      = "John, Maura and Korte, Arthur and Grimm, Dominik G",
+  journal     = "Bioinformatics",
+  institution = "bioRxiv",
+  number      = "biorxiv;2023.11.28.569016v1",
+  abstract    = "Abstract Motivation Permutation-based significance thresholds
+                 have been shown to be a robust alternative to Bonferroni-based
+                 significance thresholds in genome-wide association studies
+                 (GWAS). However, the implementation of permutation-based
+                 thresholds is computationally demanding. The recently published
+                 method permGWAS introduced a batch-wise approach using 4D
+                 tensors to efficiently compute permutation-based GWAS. However,
+                 running multiple univariate tests in parallel leads to many
+                 repetitive computations and increased computational resources.
+                 More importantly, the previous version of permGWAS does not
+                 take into account the population structure when permuting the
+                 phenotype. Results We propose permGWAS2 , an improved and
+                 accelerated version that uses a block matrix decomposition to
+                 optimize computations, thereby reducing redundant computations.
+                 It also introduces an alternative permutation strategy that
+                 takes into account the population structure during permutation.
+                 We show that this improved framework provides a more
+                 streamlined approach to performing permutation-based GWAS with
+                 a lower false discovery rate compared to the previous version
+                 and the traditional Bonferroni correction. Availability
+                 permGWAS2 is open-source and publicly available on GitHub for
+                 download: https://github.com/grimmlab/permGWAS .",
+  month       =  nov,
+  year        =  2023
+}
+
 @MISC{EuroMed2022-pg,
   title        = "{Euro+Med} {PlantBase} - the information resource for
                   Euro-Mediterranean plant diversity",
